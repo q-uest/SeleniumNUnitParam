@@ -45,7 +45,7 @@ namespace SeleniumNUnitParam
             }
             else if(browserType == BrowerType.IE)
             {
-                Driver = new InternetExplorerDriver();
+                Driver = new InternetExplorerDriver(@"c:\tools");
             }
         }
 
